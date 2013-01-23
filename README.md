@@ -9,3 +9,10 @@ Add CSNoteView.h & CSNoteView.m files into your project. Create its instance or 
 
 Implement UITextViewDelegete method:
 
+```
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    // to update NoteView
+    [noteView setNeedsDisplay];
+}
+```
