@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Noteview by aahsanali</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Noteview</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/aahsanali/NoteView">View the Project on GitHub <small>aahsanali/NoteView</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/aahsanali/NoteView/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/aahsanali/NoteView/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/aahsanali/NoteView">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>NoteView</h1>
+
+<h3>What is this?</h3>
+
+<p>CSNoteView is a sub class of UITextView to show lines for each row in text view.</p>
+
+<h3>How to use it?</h3>
+
+<p>Add CSNoteView.h &amp; CSNoteView.m files into your project. Create its instance or IBOutlet like you create for UITextView.</p>
+
+<p>Implement UITextViewDelegete method:</p>
+
+<pre><code>- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+
+    // to update CSNoteView
+    [noteView setNeedsDisplay];
+}
+</code></pre>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/aahsanali">aahsanali</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
