@@ -1,6 +1,6 @@
 //
-//  LinedTextViewViewController.m
-//  LinedTextView
+//  RootViewController.m
+//  NoteView
 //
 //  Created by Naveed Ahsan on 10/9/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
