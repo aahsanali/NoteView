@@ -26,7 +26,7 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
-    // to update CSNoteView
+    // to update NoteView
     [noteView setNeedsDisplay];
 }
 
