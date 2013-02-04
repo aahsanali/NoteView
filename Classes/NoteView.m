@@ -17,6 +17,7 @@
     if (self) {
 		[self setBackgroundColor:[UIColor whiteColor]];
         self.font = [UIFont fontWithName:@"TimesNewRomanPS-BoldMT" size:12];
+        self.delegate = self;
     }
     return self;
 }
@@ -52,4 +53,10 @@
     CGContextClosePath(context);
     CGContextStrokePath(context);
 }
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+  [self setNeedsDisplay];
+}
+
 @end
