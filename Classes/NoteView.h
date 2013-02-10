@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface NoteView : UITextView<UIScrollViewDelegate> {
+@interface NoteView : UITextView<UIScrollViewDelegate, UITextViewDelegate> {
 
 }
 
