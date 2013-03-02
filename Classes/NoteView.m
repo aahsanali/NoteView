@@ -42,7 +42,7 @@
     CGFloat baselineOffset = 6.0f;
 	
     //iterate over numberOfLines and draw each line
-    for (int x = 1; x < numberOfLines; x++) {
+    for (NSUInteger x = 1; x < numberOfLines; x++) {
         
         //0.5f offset lines up line with pixel boundary
         CGContextMoveToPoint(context, self.bounds.origin.x+10, self.font.leading*x + 0.5f + baselineOffset);
